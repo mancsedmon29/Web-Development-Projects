@@ -99,7 +99,7 @@ Next, is create `img` element for the first image for hangman inside of `hangman
 The result for `div` container
 
 <figure>
-    <img src="./imgpage/container.png">
+    <img src="./container.png">
     <figcaption>The first `div` section, the container</figcaption>
 </figure>
 
@@ -136,7 +136,7 @@ Add `h1` tag for the title of the game which is **Hangman Game**.
 ```
 
 <figure>
-    <img src="./imgpage/h1.png">
+    <img src="./h1.png">
     <figcaption>The heading as a title of the game.</figcaption>
 </figure>
 
