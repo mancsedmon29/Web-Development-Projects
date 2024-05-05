@@ -113,7 +113,7 @@ The result inside of `div` container which is `hangman-box`
 The last is the image.
 
 <figure>
-    <img src="./imgpage/img.png">
+    <img src="./img.png">
     <figcaption>The image of the game.</figcaption>
 </figure>
 
