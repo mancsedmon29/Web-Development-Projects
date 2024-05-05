@@ -1,3 +1,3 @@
-# Build a Notes App
+# Web Development Project
 
-In this project. We Build the Application Notes using HTML, CSS, and JavaScript. Thanks for Coding Nepal to learn this application for my portfolio and it's a big help for developers like me. 
+Here are all the projects I made in every tutorial I've watched and learned on other platforms. You see the project such as frameworks, games, and many more...
