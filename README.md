@@ -106,7 +106,7 @@ The result for `div` container
 The result inside of `div` container which is `hangman-box`
 
 <figure>
-    <img src="./imgpage/hangman-box.png">
+    <img src="./hangman-box.png">
     <figcaption>The children of container</figcaption>
 </figure>
 
@@ -193,7 +193,7 @@ Create the `ul` tag means unordered list for the item of letters and make seven 
 Let's see in the HTML Tree Generator in this page.
 
 <figure>
-    <img src="./imgpage/html-tree.png">
+    <img src="./html-tree.png">
     <figcaption>As you can see, the children of container, hangman-box and the game-box.</figcaption>
 </figure>
 
@@ -230,7 +230,7 @@ Create `h4` tag for the **hint** of this game. And uset `b` tag which is the tex
 ```
 
 <figure>
-    <img src="./imgpage/h4.png">
+    <img src="./h4.png">
     <figcaption>The h4 tag for the hint of the game.</figcaption>
 </figure>
 
@@ -270,7 +270,7 @@ Create another `h4` tag for the **incorrect** of this game. And uset `b` tag whi
 ```
 
 <figure>
-    <img src="./imgpage/h4-1.png">
+    <img src="./h4-1.png">
     <figcaption>The result of h4 for incorrect</figcaption>
 </figure>
 
@@ -289,7 +289,7 @@ Using `button` tag create this button for this project from `a - z`
 ```
 
 <figure>
-    <img src="./imgpage/button.png">
+    <img src="./button.png">
     <figcaption>The 26 buttons for the game</figcaption>
 </figure>
 
@@ -307,7 +307,7 @@ body {
 ```
 
 <figure>
-    <img src="./imgpage/bakcground.png">
+    <img src="./bakcground.png">
     <figcaption>From white to something purple and blue</figcaption>
 </figure>
 
@@ -340,14 +340,14 @@ Next, to style the `.container` class which is the main `div` section. To know *
 This CSS code snippet defines the styling for a container element. It sets the `width` to `850 pixels`, the background color to `white`, and the display to `flex` with items aligned to the `bottom`. It also adds `padding` of `60 pixels` on the top and bottom, and `40 pixels` on the left and right. The container has a `border-radius` of `10 pixels`, giving it rounded corners.
 
 <figure>
-    <img src="./imgpage/displayresult.png">
+    <img src="./displayresult.png">
     <figcaption>Here's the result of two chidlren of containers aligned two using flexbox.</figcaption>
 </figure>
 
 Let's style for the `img` tag which is one of the children of `hangman-box`
 
 <figure>
-    <img src="./imgpage/div1.png">
+    <img src="./div1.png">
 </figure>
 
 ```
@@ -359,14 +359,14 @@ Let's style for the `img` tag which is one of the children of `hangman-box`
 This CSS snippet sets the maximum width of elements with the class `hangman-box` to `270 pixels`.
 
 <figure>
-    <img src="./imgpage/result.png">
+    <img src="./result.png">
     <figcaption>The result but, there's a problem when it comes of alignment</figcaption>
 </figure>
 
 Next, is to style the `h1` tag.
 
 <figure>
-    <img src="./imgpage/div2.png">
+    <img src="./div2.png">
     <figcaption></figcaption>
 </figure>
 
@@ -382,14 +382,14 @@ Next, is to style the `h1` tag.
 This CSS code snippet targets the `<h1>` element inside the `.hangman-box` class. It sets the `font size` to `1.45rem`, adds a `top margin` of `20 pixels`, `centers` the text, and `transforms` it to `uppercase`.
 
 <figure>
-    <img src="./imgpage/result2.png">
+    <img src="./result2.png">
     <figcaption>The Hangmang Game become, uppercase</figcaption>
 </figure>
 
 Let's style the `li` tag with the name of `.letter`.
 
 <figure>
-    <img src="./imgpage/li.png">
+    <img src="./li.png">
     <figcaption></figcaption>
 </figure>
 
@@ -403,7 +403,7 @@ Let's style the `li` tag with the name of `.letter`.
 This CSS code snippet targets elements with the class "letter" inside elements with the class "word-display". It sets the `width` of these elements to `28 pixels` and adds a solid black `border at the bottom` with a thickness of `3 pixels`.
 
 <figure>
-    <img src="./imgpage/result3.png">
+    <img src="./result3.png">
     <figcaption>You see the border with the color black every letter</figcaption>
 </figure>
 
@@ -423,7 +423,7 @@ Let's style the `.word-display` (unordered list).
 This CSS code snippet defines the styling for an element with the class `"word-display"`. It sets the display property to `"flex"`, which allows the child elements to be laid out in a row or column. The `gap` property sets the space between the child elements to `10 pixels`. The `list-style` property removes the default `bullet points` or `numbering` from the list items. The `align-items` and `justify-content` properties `center` the child elements both vertically and horizontally within the container.
 
 <figure>
-    <img src="./imgpage/result4.png">
+    <img src="./result4.png">
     <figcaption>The alignment of letters and the letters bullet points are removed</figcaption>
 </figure>
 
@@ -442,7 +442,7 @@ Type the letter `a` on the third item to style using CSS like this in `.word-dis
 ```
 
 <figure>
-    <img src="./imgpage/stylea.png">
+    <img src="./stylea.png">
     <figcaption>As you can see, the letter 'a' in the third item. Later, it will become uppercase after we style it.</figcaption>
 </figure>
 
@@ -462,7 +462,7 @@ Now, let's style the letter 'a' under the `.word-display` class of unordered lis
 In CSS code snippet defines the styling for elements with the class "letter" that are descendants of elements with the class "word-display". It sets the `width` of these elements to `28 pixels`, the `font size` to `2rem`, the `font weight` to `600` (bold), `transforms the text` to `uppercase`. the horizontal `alignment of text` to the `center`. So, the text will be centered within its container.
 
 <figure>
-    <img src="./imgpage/styleadone.png">
+    <img src="./styleadone.png">
     <figcaption>After styling letter `a` here's the result.</figcaption>
 </figure>
 
@@ -492,7 +492,7 @@ Let's style this for the alignment of letter `A` of the game. Let's go to CSS un
 This code snippet targets elements with both classes "letter" and "guessed" inside elements with the class "word-display". It sets the `border color` to `transparent` and adjusts the `margin` to `-40` pixels from the top, `0` from the right and left, and `35 pixels` from the bottom.
 
 <figure>
-    <img src="./imgpage/stylea1.png">
+    <img src="./stylea1.png">
     <figcaption>The letter `A` was aligned after styling it.</figcaption>
 </figure>
 
@@ -510,7 +510,7 @@ Let's style `h4` under the `.game-box` for hint and incorrect.
 In this CSS code snippet styles the `h4` elements that are descendants of elements with the class "game-box". It `centers` the `text`, sets the f`ont size` to `1.1 rem`, sets the `font weight` to `500` (medium), and adds a `bottom margin` of `15 pixels`.
 
 <figure>
-    <img src="./imgpage/hint.png">
+    <img src="./hint.png">
     <figcaption>In h4 which is the `hint` was aligned to center and the text have medium thick</figcaption>
 </figure>
 
@@ -525,7 +525,7 @@ Next to style is the `b` (bold) tag. Under the `h4`
 This CSS code snippet styles the `b` (bold) tag that is a descendant of an h4 tag within an element with the class "game-box". It sets the `font-weight` property to `600`, which makes the text appear bold.
 
 <figure>
-    <img src="./imgpage/b.png">
+    <img src="./b.png">
     <figcaption>The text element of `b` is bigger than the text of `h4` tag.</figcaption>
 </figure>
 
@@ -540,7 +540,7 @@ The the color text font of `b` of `.guesses-text`.
 This CSS code snippet targets the `<b>` (bold) tag that is a descendant of an element with the class "guesses-text" within an element with the class "game-box". It sets the `color` property to #ff0000, which is the hexadecimal code for red. This means that the text inside the `<b>` tag will appear in red.
 
 <figure>
-    <img src="./imgpage/b1.png">
+    <img src="./b1.png">
     <figcaption>The text of incorrect is red</figcaption>
 </figure>
 
@@ -558,7 +558,7 @@ Style the keyboard of the game.
 This CSS code snippet targets the `.keyboard` class that is a descendant of an element with the class `.game-box`. It sets the `display` property to `flex`, which allows the child elements to be laid out in a row or column. The `gap` property sets the space between the child elements to `5px`. The `flex-wrap` property `wraps` the child elements if they exceed the width of the container. The `justify-content` property `centers` the child elements horizontally within the container.
 
 <figure>
-    <img src="./imgpage/keyboard.png">
+    <img src="./keyboard.png">
     <figcaption>The keyboard button was aligned using flexbox and they have gap to each other.</figcaption>
 </figure>
 
@@ -583,7 +583,7 @@ Style all the buttons and change their appearance.
 This code snippet styles the `buttons` inside an element with the class "keyboard". It sets the text `color` to `white`, `font size` to `1rem`, `font weight` to `600`, `cursor` to `pointer`, removes the `outline`, adds `padding` of `7px`, removes the `border`, sets the `background` color to `#5e63ba`, gives a `border radius` of `4px`, `transforms the text` to `uppercase`, and calculates the width based on the total width divided by 9 minus 5px.
 
 <figure>
-    <img src="./imgpage/button_styled.png">
+    <img src="./button_styled.png">
     <figcaption>The button aligned in 1 row, which is 9 buttons. Thanks for `calc` in width.</figcaption>
 </figure>
 
@@ -599,7 +599,7 @@ Once you hover the `buttons` the color will change.
 This CSS snippet changes the background color of the buttons inside an element with the class "keyboard" when they are being hovered over by the user's mouse cursor. The background color will change to `#8286c9` when the button is hovered over.
 
 <figure>
-    <img src="./imgpage/buttonhover.gif">
+    <img src="./buttonhover.gif">
     <figcaption></figcaption>
 </figure>
 
@@ -618,7 +618,7 @@ Adjust the margin of the `.keyboard` of button above to 40px;
 This CSS code snippet sets the `top margin` of an element to `40 pixels`.
 
 <figure>
-    <img src="./imgpage/marginkeyboard.png">
+    <img src="./marginkeyboard.png">
     <figcaption>The margin of top is 40px</figcaption>
 </figure>
 
@@ -635,7 +635,7 @@ Add additional `div` for the modal of the game.
 This HTML code snippet creates a modal (a pop-up window) for a game. The modal is represented by a `<div>` element with the class "game-modal". Inside the modal, there is another `<div>` element with the class "content". Inside the content, there is an `<img>` element that displays an image with the source "images/lost.gif" and an alternative text "gif". This image could be used to show a lost game scenario, for example.
 
 <figure>
-    <img src="./imgpage/modal.png">
+    <img src="./modal.png">
     <figcaption></figcaption>
 </figure>
 
@@ -665,7 +665,7 @@ Let's style the `.game-modal` class to fixed.
 This CSS code snippet styles the `.game-modal` class by setting its `position` property to `fixed`. This means that the element with the `.game-modal` class will be positioned relative to the viewport, staying in the same position even when the page is scrolled.
 
 <figure>
-    <img src="./imgpage/fixedposition.png">
+    <img src="./fixedposition.png">
     <figcaption>remaining at the same spot despite page scrolling</figcaption>
 </figure>
 
@@ -680,7 +680,7 @@ This CSS code snippet styles the `.game-modal` class by setting its `position` p
 This CSS code snippet targets the `img` elements that are descendants of an element with the class "game-modal". It sets the `maximum width` of those images to `130 pixels`.
 
 <figure>
-    <img src="./imgpage/imgshrink.png">
+    <img src="./imgshrink.png">
     <figcaption></figcaption>
 </figure>
 
@@ -697,7 +697,7 @@ Style the `content` of the game and put the background color for this.
 This code sets the background of the `content` inside an element with the class "game-modal" to `white` (#fff). It limits the `maximum width` of the content to `420 pixels` and makes the `width` of the content `100% `of its container.
 
 <figure>
-    <img src="./imgpage/stylecontent.png">
+    <img src="./stylecontent.png">
     <figcaption>his code sets the background of the `content` inside an element with the class "game-modal"</figcaption>
 </figure>
 
@@ -720,7 +720,7 @@ Update the `.game-modal` declarators
 This CSS code snippet styles the .game-modal class. It sets the `position` of the element to `fixed`, meaning it will be positioned relative to the viewport and stay in the same position even when the page is scrolled. It is `positioned` at the top left corner of the viewport (left: 0; top: 0;), spanning the entire `width` and `height` of the viewport (width: 100%; height: 100%;). It uses flexbox layout to center its child elements both vertically and horizontally (display: flex; align-items: center; justify-content: center;). The `background color` of the modal is a semi-transparent black (background: rgba(0, 0, 0, 0.6);), giving it a dimmed effect.
 
 <figure>
-    <img src="./imgpage/designmodal.png">
+    <img src="./designmodal.png">
     <figcaption></figcaption>
 </figure>
 
@@ -740,7 +740,7 @@ Update the `.content` under the `.game-modal` which is the descendant.
 This CSS code snippet styles the content of a game modal. It sets the background color to white, sets a maximum width of 420 pixels, ensures the content is centered horizontally, adds rounded corners to the content, and adds `padding` of `30 pixels`.
 
 <figure>
-    <img src="./imgpage/modalgame.png">
+    <img src="./modalgame.png">
     <figcaption>The result with padding and the border is smooth</figcaption>
 </figure>
 
@@ -753,7 +753,7 @@ Style the `h4` of the descendant of `.game-modal` to adjust the font-size.
 ```
 
 <figure>
-    <img src="./imgpage/h4gameover.png">
+    <img src="./h4gameover.png">
     <figcaption>The h4 which is "Game Over!" become big</figcaption>
 </figure>
 
@@ -770,7 +770,7 @@ Style the `p` of the descendant of `.game-modal` to adjust the font-size, margin
 This CSS code snippet styles the `p` elements that are descendants of elements with the class "game-modal". It sets the `font-size` to 1.15rem, adds a margin of `15px` from the top and bottom, and `30px` from the top, and sets the `font-weight` to `500` (medium).
 
 <figure>
-    <img src="./imgpage/pgameover.png">
+    <img src="./pgameover.png">
     <figcaption>The new design of game modal of the game</figcaption>
 </figure>
 
@@ -786,7 +786,7 @@ Style the `b` of the descendant of `.game-modal` and the children of `p` to appl
 This CSS code snippet styles the `<b>` (bold) tags that are descendants of `<p>` tags within elements with the class "game-modal". It sets the `color` property to `#5e63ba` (a shade of purple) and the `font-weight` property to `600` (bold).
 
 <figure>
-    <img src="./imgpage/pbpurple.png">
+    <img src="./pbpurple.png">
     <figcaption>Look at the text of random the color is something purple</figcaption>
 </figure>
 
@@ -801,7 +801,7 @@ Style the `button` tag which is the descendant of `game-modal`.
 This CSS snippet targets all button elements within elements with the class "game-modal" and sets their `padding` to `12 pixels` on the top and bottom, and `23 pixels` on the left and right.
 
 <figure>
-    <img src="./imgpage/buttongame_style.png">
+    <img src="./buttongame_style.png">
     <figcaption>Padding for button works properly</figcaption>
 </figure>
 
@@ -810,7 +810,7 @@ This CSS code snippet targets buttons that are descendants of elements with eith
 - `color`: sets the text color to white (#fff).
 - `font-size`: sets the font size to 1rem.
 - `font-weight`: sets the font weight to 600.
-- `cursor`: sets the cursor to a pointer, indicating that the button is clickable.
+- `cursor`: sets the cursor to a pointer, indicating the button is clickable.
 - `outline`: removes any default outline from the button.
 - `border`: removes any border from the button.
 - `background`: sets the background color to a dark purple (#5e63ba).
@@ -841,7 +841,7 @@ This CSS code snippet styles the buttons inside an element with the class "keybo
 ```
 
 <figure>
-    <img src="./imgpage/buttonpurple.png">
+    <img src="./buttonpurple.png">
     <figcaption>The button become purple</figcaption>
 </figure>
 
@@ -854,8 +854,8 @@ This code snippet targets the button elements inside elements with the classes .
 ```
 
 <figure>
-    <img src="./imgpage/buttonhover2.gif">
-    <figcaption>Once the mouse pointer hover the button "Play Again"</figcaption>
+    <img src="./buttonhover2.gif">
+    <figcaption>Once the mouse pointer hovers the button "Play Again"</figcaption>
 </figure>
 
 This CSS code snippet defines the styling for a modal element with the class .game-modal. It is initially hidden (display: none).
@@ -875,11 +875,11 @@ This CSS code snippet defines the styling for a modal element with the class .ga
 ```
 
 <figure>
-    <img src="./imgpage/hiddenmodal.png">
+    <img src="./hiddenmodal.png">
     <figcaption>The modal game is hidden</figcaption>
 </figure>
 
-Update the padding of `body` of the project to adjust its padding.
+Update the project's padding of `body` to adjust its padding.
 
 This CSS code snippet styles the body element of a webpage. The padding: 0 10px property adds 10 pixels of padding to the left and right sides of the body.
 
@@ -895,7 +895,7 @@ body {
 ```
 
 <figure>
-    <img src="./imgpage/paddingbody.png">
+    <img src="./paddingbody.png">
     <figcaption></figcaption>
 </figure>
 
@@ -918,25 +918,25 @@ This CSS code snippet defines the styling for a container element with the class
 ```
 
 <figure>
-    <img src="./imgpage/gap.png">
-    <figcaption>The gaps between the image and the hangman word works.</figcaption>
+    <img src="./gap.png">
+    <figcaption>The gaps between the image and the hangman word work.</figcaption>
 </figure>
 
 This CSS code snippet contains a media query that applies styles when the viewport width is at most 782px. It changes the layout of the `.container` element to be a column, adds padding, and centers its child elements. It also sets the maximum width of the image inside `.hangman-box` to `200px` and hides the `h1` element inside `.hangman-box` at that specific viewport width.
 
 <figure>
-    <img src="./imgpage/mediaquery.png">
-    <figcaption>Once you resize the project webpage, it will be happen</figcaption>
+    <img src="./mediaquery.png">
+    <figcaption>Once you resize the project webpage, it will happen </figcaption>
 </figure>
 
 ## Getting Into JavaScript
 
-Create the file `script.js` for the functionality of the project then linked it to the html file here's the command below with the explanation.
+Create the file `script.js` for the functionality of the project then link it to the html file here's the command below with the explanation.
 
 This HTML code snippet includes a JavaScript file named `script.js` with the `defer` attribute, which tells the browser to load the script after parsing the HTML document.
 
 <figure>
-    <img src="./imgpage/filejs.png">
+    <img src="./filejs.png">
     <figcaption>Here's the file of script.js under the scripts file.</figcaption>
 </figure>
 
@@ -994,7 +994,7 @@ Delete all the `buttons` in html file for `.keyboard` class div section.
 ```
 
 <figure>
-    <img src="./imgpage/nobuttons.png">
+    <img src="./nobuttons.png">
     <figcaption>When we erase the `button` that why no buttons while we develop this project.</figcaption>
 </figure>
 
@@ -1011,11 +1011,11 @@ for (let i = 97; i <= 122; i++){
 ```
 
 <figure>
-    <img src="./imgpage/resultconsole.gif">
+    <img src="./resultconsole.gif">
     <figcaption>Here's the result in the console from a to z.</figcaption>
 </figure>
 
-This JavaScript code snippet is creating buttons dynamically and logging the corresponding lowercase alphabetic characters to the console.
+This JavaScript code snippet creates buttons dynamically and logs the corresponding lowercase alphabetic characters to the console.
 
 The loop iterates from ASCII value 97 (which corresponds to the character 'a') to 122 (which corresponds to the character 'z'). For each iteration, a new button element is created using `document.createElement("button")`. The character corresponding to the current ASCII value is obtained using `String.fromCharCode(i)` and logged to the console using `console.log()`.
 
@@ -1034,7 +1034,7 @@ for (let i = 97; i <= 122; i++){
 Now, to update the code to add the button as a chile of `.keyboard` class. Once you type the `keyboardDiv` which is the constant variable, here's the result to put the button as children.
 
 <figure>
-    <img src="./imgpage/applybutton.png">
+    <img src="./applybutton.png">
     <figcaption>Here's the result to the console when we type the keyboardDiv which later we put the buttons as its children</figcaption>
 </figure>
 
@@ -1053,7 +1053,7 @@ for (let i = 97; i <= 122; i++){
 ```
 
 <figure>
-    <img src="./imgpage/gap.png">
+    <img src="./gap.png">
     <figcaption>The gaps between the image and the hangman word works.</figcaption>
 </figure>
 
@@ -1061,9 +1061,9 @@ for (let i = 97; i <= 122; i++){
 
 Let's create a word list and show a random word and hint here.
 
-Update the program for `script.js`. Create the function constant named `getRandomWord` .here's the command in below:
+Update the program for `script.js`. Create the function constant named `getRandomWord` Here's the command in below:
 
-This JavaScript code snippet defines a function called `getRandomWord`. When this function is called, it selects a random word from an array called `wordList`. It uses the `Math.random()` function to generate a random number between 0 and 1, and then multiplies it by the length of `wordList` to get a random index. It then uses array destructuring to extract the `word` and `hint` properties from the object at that index in the `wordList` array. Finally, it logs the `word` and `hint` to the console.
+This JavaScript code snippet defines a function called `getRandomWord`. When this function is called, it selects a random word from an array called `wordList`. It uses the `Math.random()` function to generate a random number between 0 and 1 and then multiplies it by the length of `wordList` to get a random index. It then uses array destructuring to extract the `word` and `hint` properties from the object at that index in the `wordList` array. Finally, it logs the `word` and `hint` to the console.
 
 ```
 const getRandomWord = () => {
@@ -1073,7 +1073,7 @@ const getRandomWord = () => {
 ```
 
 <figure>
-    <img src="./imgpage/samplerandom.png">
+    <img src="./samplerandom.png">
     <figcaption>The sample word with hint</figcaption>
 </figure>
 
@@ -1095,7 +1095,7 @@ const getRandomWord = () => {
 ```
 
 <figure>
-    <img src="./imgpage/randomhint.gif">
+    <img src="./randomhint.gif">
     <figcaption>Here's the demo for random hint</figcaption>
 </figure>
 
@@ -1124,12 +1124,12 @@ const getRandomWord = () => {
 Delete all the `li` inside of `.word-display` which is unordered list.
 
 <figure>
-    <img src="./imgpage/listitmno.png">
+    <img src="./listitmno.png">
     <figcaption>After you delete the li items for blank word.</figcaption>
 </figure>
 
 <figure>
-    <img src="./imgpage/resultblank.png">
+    <img src="./resultblank.png">
     <figcaption>The result for the black word</figcaption>
 </figure>
 
@@ -1162,7 +1162,7 @@ The `for` loop iterates over ASCII values from 97 to 122, which correspond to lo
 An event listener is added to each button using `button.addEventListener`. When a button is clicked, the initGame function is called with the clicked button (e.target) and the letter it represents (`String.fromCharCode(i)`).
 
 <figure>
-    <img src="./imgpage/functionalitybutton.gif">
+    <img src="./functionalitybutton.gif">
     <figcaption>Once you type all the buttons here, the console will appear the tag and the letter.</figcaption>
 </figure>
 
@@ -1184,7 +1184,7 @@ const getRandomWord = () => {
 }
 ```
 
-Update the `initGame` for the checking if you type is exists in the random word.
+Update the `initGame` the check if your type exists in the random word.
 
 This code defines a function `initGame` that checks if the `clickedLetter` is part of the `currentWord`. If it is, it logs that the letter exists in the word. Otherwise, it logs that the letter does not exist in the word.
 
@@ -1200,11 +1200,11 @@ const initGame = (button, clickedLetter) => {
 ```
 
 <figure>
-    <img src="./imgpage/checkletter.gif">
-    <figcaption>Check if in the lette exist in the word of guitar</figcaption>
+    <img src="./checkletter.gif">
+    <figcaption>Check if the letter exists in the word of guitar</figcaption>
 </figure>
 
-Now, update the code we create earlier in this.
+Now, update the code we created earlier in this.
 
 ```
 const initGame = (button, clickedLetter) => {
@@ -1232,7 +1232,7 @@ If the `clickedLetter` does not exist in currentWord, it logs a message to the c
 The purpose of this function is to update the game state based on the player's guesses.
 
 <figure>
-    <img src="./imgpage/sampleguessed.gif">
+    <img src="./sampleguessed.gif">
     <figcaption>Check if the letter is exist in the word of Pizza like you see in the sample</figcaption>
 </figure>
 
@@ -1297,7 +1297,7 @@ const initGame = (button, clickedLetter) => {
 ```
 
 <figure>
-    <img src="./imgpage/incorrectGuesses.gif">
+    <img src="./incorrectGuesses.gif">
     <figcaption>Here's the sample how the incorrect works</figcaption>
 </figure>
 
@@ -1341,7 +1341,7 @@ The SVG image file is named hangman-{`wrongGuestCount`}.svg, where {`wrongGuestC
 For example, if `wrongGuestCount` is `2`, the image source will be `images/hangman-2.svg`. This is likely used to display the current state of the hangman game, with each incorrect guess leading to an increment in the `wrongGuestCount` and consequently the displayed hangman image.
 
 <figure>
-    <img src="./imgpage/hangmanimage.gif">
+    <img src="./hangmanimage.gif">
     <figcaption>How the image of hangman works!</figcaption>
 </figure>
 
@@ -1369,7 +1369,7 @@ const initGame = (button, clickedLetter) => {
 }
 ```
 
-Go to CSS file and type this code for the indicate when you type the button letter it will be disabled and the color will changed.
+Go to the CSS file and type this code for the indicate when you type the button letter it will be disabled and the color will changed.
 
 This CSS code targets disabled buttons within an element with the class "keyboard" and sets their `opacity` to `0.6`, making them semi-transparent, and `disables` `pointer events` on them, making them `unclickable`.
 
@@ -1381,7 +1381,7 @@ This CSS code targets disabled buttons within an element with the class "keyboar
 ```
 
 <figure>
-    <img src="./imgpage/disabledLetters.gif">
+    <img src="./disabledLetters.gif">
     <figcaption>Once you pressed already the button, the button will be disabled and change the color of buttons</figcaption>
 </figure>
 
@@ -1390,14 +1390,14 @@ This CSS code targets disabled buttons within an element with the class "keyboar
 
 Let's show the modal on game over or victory.
 
-First we need to do is to update the variables we create earliear
+First, we need to do is to update the variables we create earlier
 
 ```
 let currentWord, correctLetters = [] ,wrongGuestCount = 0;
 const maxGuesses = 6;
 ```
 
-Update the `initGame` function to add condition.
+Update the `initGame` function to add a condition.
 
 ```
 const initGame = (button, clickedLetter) => {
@@ -1424,7 +1424,7 @@ const initGame = (button, clickedLetter) => {
 ```
 This JavaScript line of code is adding the `letter` to the `correctLetters` array. The `push()` method is used to add elements to the end of an array.
 
-Next this JavaScript code is used in a game, likely a hangman game, where `wrongGuestCount` represents the number of incorrect guesses made by the player, and `maxGuesses` is the maximum number of allowed incorrect guesses.
+Next, this JavaScript code is used in a game, likely a hangman game, where `wrongGuestCount` represents the number of incorrect guesses made by the player, and `maxGuesses` is the maximum number of allowed incorrect guesses.
 
 The first line checks if the number of incorrect guesses (`wrongGuestCount`) equals the maximum number of allowed guesses (`maxGuesses`). If this condition is met, it calls the `gameOver` function with `false` as an argument, indicating that the player has lost the game.
 
@@ -1460,7 +1460,7 @@ Inside the function, it uses `setTimeout` to delay the execution of the code ins
 
 The modal's visibility is likely controlled by CSS styles, with the "show" class likely having styles that make it visible when applied.
 
-Go back to CSS and add another selector and update the `.game-modal` as well:
+Go back to CSS add another selector and update the `.game-modal` as well:
 
 ```
 .game-modal {
@@ -1493,7 +1493,7 @@ When this rule is applied, it changes the opacity of the element to 1, making it
 In other words, when an element has both the "game-modal" and "show" classes, it will be fully visible and interactive with users.
 
 <figure>
-    <img src="./imgpage/gameOver.gif">
+    <img src="./gameOver.gif">
     <figcaption>Once the maxguess (6x) is enough, the modal will appear</figcaption>
 </figure>
 
@@ -1520,12 +1520,12 @@ const gameOver = (isVictory) => {
 ```
 
 <figure>
-    <img src="./imgpage/ifWin.gif">
+    <img src="./ifWin.gif">
     <figcaption>If Win in the game!</figcaption>
 </figure>
 
 <figure>
-    <img src="./imgpage/ifLose.gif">
+    <img src="./ifLose.gif">
     <figcaption>If Lose in the game!</figcaption>
 </figure>
 
@@ -1631,7 +1631,7 @@ const resetGame = () => {
 Here's the result when you play this game.
 
 <figure>
-    <img src="./imgpage/ifLoseWinner.gif">
+    <img src="./ifLoseWinner.gif">
     <figcaption>When you are winner or loser in this game result</figcaption>
 </figure>
 
@@ -1666,13 +1666,13 @@ Update the CSS file for padding in `.game-modal`
 This CSS code snippet sets the `padding` of an element to `0 pixels` on the top and bottom, and `10 pixels` on the left and right.
 
 <figure>
-    <img src="./imgpage/withaddingmodal.gif">
+    <img src="./withaddingmodal.gif">
     <figcaption>The game modal with padding for left and right in 10 pixels.</figcaption>
 </figure>
 
 Here's the project and Congrats if you made it!
 
 <figure>
-    <img src="./imgpage/TheFinish.gif">
+    <img src="./TheFinish.gif">
     <figcaption>The full project</figcaption>
 </figure>
