@@ -1268,7 +1268,7 @@ optionImages.forEach((image, index) => {
 ```
 
 <figure>
-    <img src="./" alt="The project">
+    <img src="./TheFinal.gif" alt="The project">
     <figcaption>Now, it works and enjoy the game!</figcaption>
 </figure>
 
